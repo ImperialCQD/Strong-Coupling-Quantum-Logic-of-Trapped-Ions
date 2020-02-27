@@ -1,0 +1,632 @@
+[
+  {
+    "eta": 0,
+    "terms": [
+      {
+        "op": { "Sy": 1, "create": 1, "destroy": 0 },
+        "scalar": [
+          {
+            "imaginary": 0,
+            "fraction": [-1, 1],
+            "function": "Integral(Base((1, 0)))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 1, "create": 0, "destroy": 1 },
+        "scalar": [
+          {
+            "imaginary": 0,
+            "fraction": [1, 1],
+            "function": "Integral(Conj(Base((1, 0))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 2, "create": 0, "destroy": 0 },
+        "scalar": [
+          {
+            "imaginary": 0,
+            "fraction": [-1, 2],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 0,
+            "fraction": [1, 2],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((1, 0))))))"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "eta": 1,
+    "terms": [
+      {
+        "op": { "Sy": 1, "create": 2, "destroy": 0 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [-1, 2],
+            "function": "Integral(Base((2, 0)))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 1, "create": 0, "destroy": 2 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [-1, 2],
+            "function": "Integral(Conj(Base((2, 0))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 2, "create": 0, "destroy": 1 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [-1, 1],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0))))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 2, "create": 1, "destroy": 0 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [-1, 1],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0)))))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 1, "create": 0, "destroy": 0 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [-2, 1],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0)))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-2, 1],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0))), Integral(Base((1, 0))))))"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "eta": 2,
+    "terms": [
+      {
+        "op": { "Sy": 1, "create": 2, "destroy": 1 },
+        "scalar": [
+          {
+            "imaginary": 0,
+            "fraction": [1, 2],
+            "function": "Integral(Base((1, 0)))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 1, "create": 1, "destroy": 2 },
+        "scalar": [
+          {
+            "imaginary": 0,
+            "fraction": [-1, 2],
+            "function": "Integral(Conj(Base((1, 0))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 2, "create": 2, "destroy": 0 },
+        "scalar": [
+          {
+            "imaginary": 0,
+            "fraction": [1, 2],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Base((1, 0))))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 2, "create": 0, "destroy": 2 },
+        "scalar": [
+          {
+            "imaginary": 0,
+            "fraction": [-1, 2],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Conj(Base((1, 0)))))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 2, "create": 1, "destroy": 1 },
+        "scalar": [
+          {
+            "imaginary": 0,
+            "fraction": [1, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 0,
+            "fraction": [-1, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((1, 0))))))"
+          },
+          {
+            "imaginary": 0,
+            "fraction": [-1, 2],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Conj(Base((2, 0)))))))"
+          },
+          {
+            "imaginary": 0,
+            "fraction": [1, 2],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((2, 0))))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 1, "create": 0, "destroy": 1 },
+        "scalar": [
+          {
+            "imaginary": 0,
+            "fraction": [2, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Conj(Base((1, 0)))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 0,
+            "fraction": [-4, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((1, 0))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 0,
+            "fraction": [-2, 1],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0)))), Integral(Conj(Base((2, 0)))))))"
+          },
+          {
+            "imaginary": 0,
+            "fraction": [2, 1],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0))))))))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 1, "create": 1, "destroy": 0 },
+        "scalar": [
+          {
+            "imaginary": 0,
+            "fraction": [4, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Base((1, 0))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 0,
+            "fraction": [-2, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((1, 0))), Integral(Base((1, 0))))))"
+          },
+          {
+            "imaginary": 0,
+            "fraction": [-2, 1],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0)))))))))"
+          },
+          {
+            "imaginary": 0,
+            "fraction": [2, 1],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0))), Integral(Base((2, 0))))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 2, "create": 0, "destroy": 0 },
+        "scalar": [
+          {
+            "imaginary": 0,
+            "fraction": [2, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Base((1, 0))), Integral(Conj(Base((1, 0)))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 0,
+            "fraction": [-2, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((1, 0))), Integral(Base((1, 0))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 0,
+            "fraction": [-1, 4],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Conj(Base((2, 0)))))))"
+          },
+          {
+            "imaginary": 0,
+            "fraction": [-2, 1],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0)))), Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0)))))))))"
+          },
+          {
+            "imaginary": 0,
+            "fraction": [1, 4],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((2, 0))))))"
+          },
+          {
+            "imaginary": 0,
+            "fraction": [2, 1],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0))), Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0))))))))))"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "eta": 3,
+    "terms": [
+      {
+        "op": { "Sy": 1, "create": 3, "destroy": 1 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [1, 6],
+            "function": "Integral(Base((2, 0)))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 1, "create": 1, "destroy": 3 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [1, 6],
+            "function": "Integral(Conj(Base((2, 0))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 2, "create": 3, "destroy": 0 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [1, 6],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Base((1, 0))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [1, 2],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Base((2, 0))))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 2, "create": 1, "destroy": 2 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [1, 2],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-1, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Conj(Base((2, 0)))))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 2, "create": 2, "destroy": 1 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [1, 2],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-1, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((2, 0))))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 2, "create": 0, "destroy": 3 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [1, 6],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [1, 2],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Conj(Base((2, 0)))))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 1, "create": 1, "destroy": 1 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [2, 1],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0)))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [2, 1],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0))), Integral(Base((1, 0))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Base((1, 0))), Integral(Conj(Base((2, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0)))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0))))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((2, 0))), Integral(Conj(Base((1, 0)))))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 1, "create": 2, "destroy": 0 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [2, 1],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Base((1, 0))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [2, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0))))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [4, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Base((2, 0))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((1, 0))), Integral(Base((2, 0))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 3],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Base((2, 0))), Integral(Conj(Base((2, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [4, 3],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((2, 0))), Integral(Base((2, 0))))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 1, "create": 0, "destroy": 2 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [2, 1],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Conj(Base((1, 0)))), Integral(Conj(Base((2, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [4, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((1, 0))), Integral(Conj(Base((2, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [2, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0)))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [4, 3],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Conj(Base((2, 0)))), Integral(Conj(Base((2, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 3],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((2, 0))), Integral(Conj(Base((2, 0)))))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 2, "create": 0, "destroy": 1 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [2, 3],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0)))), Integral(Conj(Base((1, 0)))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [2, 1],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0))), Integral(Base((1, 0))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-1, 2],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Conj(Base((2, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Base((1, 0))), Integral(Conj(Base((1, 0)))), Integral(Conj(Base((2, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [2, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((1, 0))), Integral(Base((1, 0))), Integral(Conj(Base((2, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Conj(Base((1, 0)))), Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0)))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [4, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((1, 0))), Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0)))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Conj(Base((1, 0)))), Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0))))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 3],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0))), Integral(Base((2, 0))), Integral(Conj(Base((2, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [8, 3],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Conj(Base((2, 0)))), Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0)))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 3],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((2, 0))), Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0)))))))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 2, "create": 1, "destroy": 0 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [2, 1],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Base((1, 0))), Integral(Conj(Base((1, 0)))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [2, 3],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0))), Integral(Base((1, 0))), Integral(Base((1, 0))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Base((1, 0))), Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0)))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-1, 2],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((2, 0))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [4, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Conj(Base((1, 0)))), Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0))))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((1, 0))), Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0))))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [2, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Base((2, 0))), Integral(Conj(Base((1, 0)))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((1, 0))), Integral(Base((2, 0))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 3],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Base((2, 0))), Integral(Conj(Base((1, 0)))), Integral(Conj(Base((2, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-4, 3],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Conj(Base((2, 0)))), Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0))))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [8, 3],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((2, 0))), Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0))))))))))"
+          }
+        ]
+      },
+      {
+        "op": { "Sy": 1, "create": 0, "destroy": 0 },
+        "scalar": [
+          {
+            "imaginary": 1,
+            "fraction": [8, 3],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Base((1, 0))), Integral(Conj(Base((1, 0)))), Integral(Conj(Base((1, 0)))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [8, 3],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0))), Integral(Base((1, 0))), Integral(Base((1, 0))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-2, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Base((1, 0))), Integral(Conj(Base((2, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-16, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Base((1, 0))), Integral(Conj(Base((1, 0)))), Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0)))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [8, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((1, 0))), Integral(Base((1, 0))), Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0)))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-2, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((2, 0))), Integral(Conj(Base((1, 0)))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [8, 1],
+            "function": "Integral(Mult((Base((1, 0)), Integral(Conj(Base((1, 0)))), Integral(Conj(Base((1, 0)))), Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0))))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-16, 1],
+            "function": "Integral(Mult((Conj(Base((1, 0))), Integral(Base((1, 0))), Integral(Conj(Base((1, 0)))), Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0))))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [16, 3],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0)))))), Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0)))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-16, 3],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0))), Integral(Base((2, 0))), Integral(Mult((Conj(Base((2, 0))), Integral(Base((1, 0)))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [-16, 3],
+            "function": "Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0)))), Integral(Conj(Base((2, 0)))), Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0))))))))))"
+          },
+          {
+            "imaginary": 1,
+            "fraction": [16, 3],
+            "function": "Integral(Mult((Conj(Base((2, 0))), Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0))))))), Integral(Mult((Base((2, 0)), Integral(Conj(Base((1, 0))))))))))"
+          }
+        ]
+      }
+    ]
+  }
+]
