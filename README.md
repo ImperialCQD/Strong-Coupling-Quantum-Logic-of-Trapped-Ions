@@ -10,10 +10,10 @@ form.
 
 The two files in the directory are
 
-- `order_3_sidebands_2.json`: the operators and their coeffcients up to and
+- `order_3_sidebands_2.json`: the operators and their coefficients up to and
   including terms in eta^3.  The driving field per sideband is simply `f_k(t) =
   f_{k,0}(t)`, _i.e._ standard driving with `f_{k,0}` not dependent on eta.
-- `order_4_sidebands_3_extra.json`: the oeprators and their coefficients up to
+- `order_4_sidebands_3_extra.json`: the operators and their coefficients up to
   and including terms in eta^4.  The driving field per sideband is now `f_k(t) =
   \sum_{h=0}^4 \eta^h f_{k,h}(t)`, where the only eta-dependence allowed is the
   explicit power series in the sum.
@@ -52,9 +52,9 @@ the numerator, and the second is the denominator.
 The object `term_sum_element` is a multiplication of its two parts, as is the
 object `scalar_sum_element` of its three parts.
 
-The example `operator` representation `{"Sy": n, "create": p, "destroy": q}` represents
-the term `S_y^n a^{\dagger p} a^q`, with the creation and annihilation operators
-always in that order.
+The example `operator` representation `{"Sy": n, "create": p, "destroy": q}`
+represents the term `S_y^n a^{\dagger p} a^q`, with the creation and
+annihilation operators always in that order.
 
 The example `scalar_sum_element` `{"imaginary": 1, "fraction": [-3, 4],
 "function": f}` represents the quantity `i^1 * (-3/4) * f(t)`.
