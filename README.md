@@ -4,9 +4,11 @@ _by Mahdi Sameti, [Jake Lishman](https://www.github.com/jakelishman) and Florian
 Mintert._
 
 This repository accompanies the paper "Strong-coupling quantum logic of trapped
-ions", available on arXiv and in [to be inserted].  The files here provide the
-conditions enumerated in the supplementary material in computer-readable JSON
-form.
+ions", available on [arXiv][arxiv] and in [to be inserted].  The files here
+provide the conditions enumerated in the supplementary material in
+computer-readable JSON form.
+
+[arxiv]: https://arxiv.org/abs/2003.11718
 
 The two files in the directory are
 
