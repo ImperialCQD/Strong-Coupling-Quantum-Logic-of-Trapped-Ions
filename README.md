@@ -1,16 +1,16 @@
 # Strong-coupling quantum logic of trapped ions
 
-_by Mahdi Sameti, [Jake Lishman][jake] and Florian
-Mintert._
+_by Mahdi Sameti, [Jake Lishman][jake] and Florian Mintert._
 
 This repository accompanies the paper "Strong-coupling quantum logic of trapped
-ions", available on [arXiv][arxiv] and in [to be inserted].  The files here
-provide the conditions enumerated in the supplementary material in
+ions", available on [arXiv][arxiv] and in [Physical Review A][pra].  The files
+here provide the conditions enumerated in the supplementary material in
 computer-readable JSON form, along with the arbitrary constraint generation
 code, analysis notebooks and figure data.
 
 [jake]: https://github.com/jakelishman
 [arxiv]: https://arxiv.org/abs/2003.11718
+[pra]: https://doi.org/10.1103/PhysRevA.103.052603 
 
 There are several files and directories in this repository:
 
@@ -45,7 +45,7 @@ Everything is Python 3, and requires the standard `numpy`, `scipy` and
 The constraint generation code uses [`attrs`](https://www.attrs.org/en/stable/),
 available on `pip` and `conda`.
 
-The code that regenerates the phase-space data uses [QuTiP](http://qutip.org/),
+The code that regenerates the phase-space data uses [QuTiP](https://qutip.org/),
 which at the time of writing is only available on `conda`.  You need something
 in the 4.X line, and at least 4.3.
 
